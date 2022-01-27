@@ -1,0 +1,19 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  img {
+    width: 150px;
+    margin: 20px;
+    border-radius: 20px;
+  }
+  h2 {
+    color: black;
+    text-shadow: 2px 2px rgba(240, 248, 255, 0.241);
+  }
+  a {
+    color: #0b0089;
+    text-decoration: none;
+  }

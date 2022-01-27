@@ -1,38 +1,30 @@
 .App {
+  background-image: url('/public/cubes.png');
+  background-color: #22577e;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.about {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.education {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.experience {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  border-radius: 12px;
+  background-color: rgb(149, 209, 204, 0.241);
 }
