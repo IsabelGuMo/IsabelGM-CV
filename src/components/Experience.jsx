@@ -5,13 +5,15 @@ const Experience = ({ experience }) => {
     return (
       <div className="experience">
       <div className="card">
-      
+      <h3>Experience</h3>
          {experience.map((item) => {
            return (
              <div key={JSON.stringify(item)}>
-               <p className="name">📕 {item.name}</p>
+               <h4 className="name">{item.name}</h4>
                <p>{item.date}</p>
-               <p>{item.where}</p>
+               <p>
+                 <small>{item.description}</small>
+                 </p>
              </div>
            );
          })}

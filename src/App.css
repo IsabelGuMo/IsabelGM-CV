@@ -1,30 +1,60 @@
 .App {
-  background-image: url('/public/cubes.png');
-  background-color: #22577e;
+  background-color: #8E9775; 
   text-align: center;
+  min-height: 100vh; 
+}
+@media (prefers-reduced-motion: no-preference) {
+  
 }
 
-.about {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.education {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.experience {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 .card {
   padding-left: 20px;
   padding-right: 20px;
   text-align: center;
   border-radius: 12px;
   background-color: rgb(149, 209, 204, 0.241);
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+h2 {
+  color: #4A503D;
+  text-shadow: 2px 2px rgba(240, 248, 255, 0.241);
+}
+
+h3 {
+  color: #FFC300;
+}
+
+h4 {
+  color: #cb6559 ;
+}
+
+a {
+  color: #0b0089;
+  text-decoration: none;
+}
+.navbar{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.navbar button{
+  background: none;
+        border: none;
+        color: inherit;
+        padding: 0;
+        font: inherit;
+        cursor: pointer;
+        outline: inherit;
+}
+
+.navbar button img{
+  max-width: 120px;
+  margin: 10px auto;
+  display:block;
 }

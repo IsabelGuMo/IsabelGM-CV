@@ -1,71 +1,91 @@
 export const CV = {
+
     hero: {
       name: "Isabel",
       adress: "Gutiérrez Moreno",
       city: "Barcelona",
       email: "gm.isabel@gmail.com",
-      phone: "(+12) 555333841",
-      image: "IMG_3844.jpg",
+      phone: "637 466 129",
+      image: "https://res.cloudinary.com/dayw7rwf5/image/upload/v1646677243/cv/FotoCV_zybz9g.jpg",
       gitHub: "https://github.com/IsabelGuMo",
+    },
+
+    about: {
       aboutMe: [
         {
-          info: "Actualmente cursando un Bootcamp Full Stack Developer en Upgrade Hub.",
+          info: "Junior Full Stack Developer in progress🔋 ",
         },
         {
-          info: "Experiencia en atención al público.",
+          info: "Tras mas de 20 años dedicada al sector dental he decidido reinventarme.",
         },
         
-      ],
+      ]
     },
     education: [
       {
-        name: "hola1",
-        date: "1986",
-        where: "",
+        name: "Junior Full Stack Developer",
+        date: "2021-2022",
+        where: "Upgrade-hub",
       },
       {
-        name: "hola2",
-        date: "2001",
-        where: "",
+        name: "Excel:Fundamientos y Herramientas ",
+        date: "2020",
+        where: "Edx: UPV",
       },
       {
-        name: "hola3",
-        date: "2018",
-        where: "",
+        name: "Edx: Excel:Gestión de datos",
+        date: "2020",
+        where: "Edx: UPV",
+      },
+      {
+        name: "Gestión y fidelización de clientes",
+        date: "2019",
+        where: "deac: dental academi by proclinic",
+      },
+      {
+        name: "Gestión Opreativa Clínica Dental",
+        date: "2017",
+        where: "Fund.Josep Finestres",
+      },
+      {
+        name: "Técnico Superior Administrativo",
+        date: "1998",
+        where: "IFP Can jofresa",
       },
     ],
     experience: [
       {
-        name: "bla bla bla",
-        date: "1996",
-        where: "en un sitio",
+        name: "Mòn De Somriures centre Mèdic",
+        date: "2021",
+        description: "Recepcionista-Administrativa-Atención al Cliente",
       },
       {
-        name: "bla bla bla",
+        name: "Instituto Volpe",
+        date: "2020",
+        description: "Recepcionista-Administrativa",
+      },
+      {
+        name: "Clínica Dental Sant Pere",
         date: "2018",
-        where: "en otro sitio",
+        description: "Recepcionista-Administrativa-Atención al Cliente",
       },
       {
-        name: "bla bla bla",
-        date: "2019-Actualidad",
-        where: "en varios  sitios",
+        name: "Clínica Dental Egara",
+        date: "1997-2017",
+        description: "Auxiliar-Recepcionista-Administrativa-Atención al Cliente",
       },
     ],
     languages: [ 
-      {
-        language: "Castellano",
-        wrlevel: "Nativo",
-        splevel: "Nativo",
-      },
+  
       {
         language: "Catalán",
-        wrlevel: "Nativo",
-        splevel: "Nativo",
+        wrlevel: "Wr-Level: Native",
+        splevel: "Sp-Level: Native",
       },
       {
-        language: "Inglés",
-        wrlevel: "Básico",
-        splevel: "Básico",
+        language: "English",
+        wrlevel: "Wr-Level: Basic",
+        splevel: "Sp-Level: Basic",
       },
     
     ],
@@ -76,7 +96,5 @@ export const CV = {
       "HTML",
       "Js",
       "React",
-      "Atención al Cliente,"
     ],
-    
-  };
+}
