@@ -1,31 +1,29 @@
 import { useState } from 'react';
+import { scroller } from 'react-scroll';
 import './App.css';
 import { Hero, About, Education, Experience, More } from './components';
 import { CV } from './CV/CV';
 
 const { hero, about,  education, experience, languages, habilities,  } = CV;
 
-/* const App = () => {
-  const [ showEducation, setShowEducation] = useState(true);
-  
-  return (
-    <div className="App">
-      <Hero hero={hero} />
-      <About about={about} />
-      <button onClick={() => setShowEducation(true)}>Education</button>
-      <button onClick={() => setShowEducation(false)}>Experience</button>
-      {showEducation ? <Education education={education} /> : <Experience experience={experience} />}
-      
-      <More
-      languages={languages}
-      habilities={habilities}
-    />
-    </div>
-  );
-} */
-
 const App = () => {
   const [ menu, setMenu] = useState(0);
+
+  const scrollTo = (selected) => {
+    if (selected === 1) {
+      scroller.scrollTo("about")
+    };
+    if (selected === 2) {
+      scroller.scrollTo("experience")
+    };
+    if (selected === 3) {
+      scroller.scrollTo("education")
+    };
+    if (selected === 4) {
+      scroller.scrollTo("more")
+    };
+  };
+
   return (
     <div className="App">
       <Hero hero={hero} />
@@ -33,7 +31,7 @@ const App = () => {
         <button onClick={() => setMenu(1)}>
           <img
             src="https://res.cloudinary.com/dayw7rwf5/image/upload/v1646597743/cv/about_j26buf.jpg"
-            alt="Sobre mi"/>
+            alt="About me"/>
         </button>
       
         <button onClick={() => setMenu(2)}>
@@ -44,7 +42,7 @@ const App = () => {
           <button onClick={() => setMenu(3)}>
             <img
               src="https://res.cloudinary.com/dayw7rwf5/image/upload/v1646644063/cv/learn_xunyas.jpg"
-              alt="Estudies"/>
+              alt="Education"/>
           </button>
           <button onClick={() => setMenu(4)}>
             <img
@@ -65,6 +63,7 @@ const App = () => {
         ) : (
           ""
        )}
+       {scrollTo(menu)}
     </div>
   );
 }
