@@ -54,7 +54,7 @@ a {
 }
 
 .navbar button img{
-  max-width: 121px;
+  max-width: 126px;
   margin: 10px auto;
   display:block;
 }
@@ -62,7 +62,7 @@ a {
 .scroll-down {
   position: absolute;
   right: 10px;
-  bottom: 2rem;
+  top: 600px; 
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -72,7 +72,7 @@ a {
   -webkit-box-pack: center;
   justify-content: center;
   font-size: 14px;
-  color: whitesmoke;
+  color: #cb6559;
 }
 
 .scroll-down--left {
