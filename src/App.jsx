@@ -36,7 +36,7 @@ const App = () => {
       
         <button onClick={() => setMenu(2)}>
             <img
-              src="https://res.cloudinary.com/dayw7rwf5/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1646643570/cv/experience_vtgjx8.jpg"
+              src="https://res.cloudinary.com/dayw7rwf5/image/upload/v1646643570/cv/experience_vtgjx8.jpg"
               alt="Experience"/>
           </button>
           <button onClick={() => setMenu(3)}>

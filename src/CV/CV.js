@@ -5,7 +5,7 @@ export const CV = {
       adress: "Gutiérrez Moreno",
       city: "Barcelona",
       email: "gm.isabel@gmail.com",
-      phone: "637 466 129",
+      cv: "https://res.cloudinary.com/dayw7rwf5/image/upload/v1650886899/cv/cv_isabel_gutierrez_vfur2h.png",
       image: "https://res.cloudinary.com/dayw7rwf5/image/upload/v1646677243/cv/FotoCV_zybz9g.jpg",
       gitHub: "https://github.com/IsabelGuMo",
     },
@@ -16,8 +16,15 @@ export const CV = {
           info: "Junior Full Stack Developer in progress🔋 ",
         },
         {
-          info: "Tras mas de 20 años dedicada al sector dental he decidido reinventarme.",
+          info: "Después de muchos años dedicada al sector dental, no he perdido las ganas de aprender,  he descubierto mi pasión, el desarrollo web así que he decidido reinventarme.",
         },
+        {
+          info: " Mi objetivo es formar parte de un equipo, ayudar a conseguir objetivos y ser un valor añadido para la empresa y por que no, crecer con ella.",
+        },
+        {
+          info: " Hard Worker  Social Skills",
+        },
+
         
       ]
     },
@@ -28,7 +35,7 @@ export const CV = {
         where: "Upgrade-hub",
       },
       {
-        name: "Excel:Fundamientos y Herramientas ",
+        name: "Excel:Fundamentos y Herramientas ",
         date: "2020",
         where: "Edx: UPV",
       },
@@ -43,14 +50,14 @@ export const CV = {
         where: "deac: dental academi by proclinic",
       },
       {
-        name: "Gestión Opreativa Clínica Dental",
+        name: "Gestión Operativa Clínica Dental",
         date: "2017",
         where: "Fund.Josep Finestres",
       },
       {
         name: "Técnico Superior Administrativo",
         date: "1998",
-        where: "IFP Can jofresa",
+        where: "IFP Can Jofresa",
       },
     ],
     experience: [
@@ -88,11 +95,9 @@ export const CV = {
       },
     ],
 
-    habilities: [
-      "CSS",
-      "SCSS",
-      "HTML",
-      "Js",
-      "React",
-    ],
+    habilities: {
+      logo: "https://res.cloudinary.com/dayw7rwf5/image/upload/v1650898773/cv/html-css-js-icons-text-logo_cgbmhn.png",
+      react: "https://res.cloudinary.com/dayw7rwf5/image/upload/v1650900974/cv/react_xkmb5x.gif",
+      vue: "https://res.cloudinary.com/dayw7rwf5/image/upload/v1650966826/cv/logo-vue_aaandj.png"
+    },
 }

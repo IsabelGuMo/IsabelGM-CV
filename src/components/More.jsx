@@ -17,14 +17,18 @@ const More = ({languages, habilities}) => {
                 })}
             </div>
             <div className= "card">
-            <h3>Skills</h3>
-                {habilities.map((item) => {
-                return (
-                    <div key={JSON.stringify(item)}>
-                    <h4>{item}</h4>
-                    </div>
-                );
-                })}
+                <h3>Skills</h3>
+                <div className= "libreries">
+                    <p>
+                        <img src={habilities.logo}></img>
+                    </p>
+                   <p>
+                        <img src={habilities.react}></img> 
+                    </p>
+                    <p>
+                        <img src={habilities.vue}></img> 
+                    </p>
+                </div>
             </div>
       </div>
     );
