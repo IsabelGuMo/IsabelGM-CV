@@ -14,12 +14,12 @@
    border-radius: 12px;
    font-size: 1.3rem;
    background-image: url('/public/green-gobbler.png');
-   background-color: #BB9981;
+   background-color: #5EAAA8;
 }
 
 .about .card div {
-   margin: 20px auto;
-   padding: 10px 0;
-   max-width: 80%;
+   margin: 10px auto;
+   padding: 3px 0;
+   max-width: 70%;
 }
 

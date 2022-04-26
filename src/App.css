@@ -1,5 +1,5 @@
 .App {
-  background-color: #8E9775; 
+  background-color: #F7F3E9; 
   text-align: center;
   min-height: 100vh; 
 }
@@ -22,15 +22,15 @@ h2 {
 }
 
 h3 {
-  color: #FFC300;
+  color: #F05945;
 }
 
 h4 {
-  color: #cb6559 ;
+  color: #733C3C ;
 }
 
 a {
-  color: #0b0089;
+  color: #85586F;
   text-decoration: none;
 }
 .navbar{
@@ -40,7 +40,7 @@ a {
   justify-content: space-evenly;
   flex-wrap: wrap;
   text-align: center;
-  margin: 20px 0;
+  
 }
 
 .navbar button{
