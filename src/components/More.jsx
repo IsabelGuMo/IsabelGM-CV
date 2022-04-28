@@ -31,6 +31,9 @@ const More = ({languages, habilities}) => {
                     <p>
                         <img src={habilities.vue} alt="logo vue"></img> 
                     </p>
+                    <p>
+                        <img src={habilities.logoJS} alt="logo JavaScript"></img> 
+                    </p>
                 </div>
             </div>
       </div>
