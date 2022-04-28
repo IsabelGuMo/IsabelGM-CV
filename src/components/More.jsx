@@ -20,7 +20,10 @@ const More = ({languages, habilities}) => {
                 <h3>Skills</h3>
                 <div className= "libreries">
                     <p>
-                        <img src={habilities.logo} alt="logos css, html, javascript"></img>
+                        <img src={habilities.logoCss} alt="logo css"></img>
+                    </p>
+                    <p>
+                        <img src={habilities.logoHtml} alt="logo html"></img>
                     </p>
                    <p>
                         <img src={habilities.react} alt="logo react"></img> 

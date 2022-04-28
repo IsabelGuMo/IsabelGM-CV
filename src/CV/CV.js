@@ -96,8 +96,10 @@ export const CV = {
     ],
 
     habilities: {
-      logo: "https://res.cloudinary.com/dayw7rwf5/image/upload/v1650898773/cv/html-css-js-icons-text-logo_cgbmhn.png",
-      react: "https://res.cloudinary.com/dayw7rwf5/image/upload/v1650900974/cv/react_xkmb5x.gif",
-      vue: "https://res.cloudinary.com/dayw7rwf5/image/upload/v1650966826/cv/logo-vue_aaandj.png"
+      logoCss: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg",
+      logoHtml: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg",
+      logoJS: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+      react: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg",
+      vue: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original-wordmark.svg"
     },
 }
