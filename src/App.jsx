@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { scroller } from 'react-scroll';
 import './App.css';
 import { Hero, About, Education, Experience, More } from './components';
@@ -23,6 +23,10 @@ const App = () => {
       scroller.scrollTo("more")
     };
   };
+
+  useEffect(() => {
+    scrollTo(menu)
+  }, [menu])
 
   return (
     <div className="App">
@@ -63,7 +67,7 @@ const App = () => {
         ) : (
           ""
        )}
-       {scrollTo(menu)}
+       
     </div>
     
   );
