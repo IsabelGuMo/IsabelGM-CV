@@ -8,6 +8,7 @@
  .more .card {
     width: 800px;
     max-width: 90%;
+    margin-top: 10px;
     padding-left: 20px;
     padding-right: 20px;
     text-align: center;
