@@ -17,7 +17,7 @@ const Hero = ({ hero }) => {
         <a target="_blank" href={hero.cv} rel="noreferrer">Imprimir CV</a>
         </p>
         <p>
-          <a href={hero.gitHub} rel="noreferrer">GitHub</a>
+          <a target="_blank" href={hero.gitHub} rel="noreferrer">GitHub</a>
         </p>
     </div>
   </div>
@@ -25,3 +25,4 @@ const Hero = ({ hero }) => {
 };
 
 export default Hero;
+
