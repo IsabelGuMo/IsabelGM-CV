@@ -19,6 +19,9 @@ const Hero = ({ hero }) => {
         <p>
           <a target="_blank" href={hero.gitHub} rel="noreferrer">GitHub</a>
         </p>
+        <p>
+            <a target="_blank" href={hero.portfolio} rel="noreferrer">Portfolio</a>
+        </p>
     </div>
   </div>
  );
