@@ -8,6 +8,7 @@ export const CV = {
       cv: "https://res.cloudinary.com/dayw7rwf5/image/upload/v1650886899/cv/cv_isabel_gutierrez_vfur2h.png",
       image: "https://res.cloudinary.com/dayw7rwf5/image/upload/v1646677243/cv/FotoCV_zybz9g.jpg",
       gitHub: "https://github.com/IsabelGuMo",
+      portfolio: "https://isabel-portfolio.vercel.app/",
     },
 
     about: {
